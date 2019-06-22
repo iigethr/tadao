@@ -1,2 +1,2 @@
 # Tadao
-A Minimal and Lightweight SCSS Toolset.
+A Minimal and Lightweight Design System.
