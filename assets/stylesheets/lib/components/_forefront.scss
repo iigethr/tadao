@@ -1,0 +1,187 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Forefront
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$class: "forefront";
+
+.#{$class} {
+  float: left;
+  width: 100%;
+  .#{$class}-box {
+    float: left;
+    padding: 8px;
+    width: 100%;
+    .#{$class}-block {
+      background-color: $blue-000;
+      border: 1px solid $blue-100;
+      padding: 30px;
+      float: left;
+      width: 100%;
+      .#{$class}-top,
+      .#{$class}-middle,
+      .#{$class}-bottom {
+        padding: 8px;
+        float: left;
+        width: 100%;
+      }
+    }
+  }
+  .#{$class}-menu {
+    float: left;
+    .#{$class}-menu-box {
+      float: left;
+      .#{$class}-menu-block {
+        float: left;
+        padding: 0 8px;
+      }
+    }
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-block {
+        .#{$class}-top,
+        .#{$class}-middle,
+        .#{$class}-bottom {
+        }
+      }
+    }
+    .#{$class}-menu {
+      .#{$class}-menu-box {
+        .#{$class}-menu-block {
+        }
+      }
+    }
+  }
+}

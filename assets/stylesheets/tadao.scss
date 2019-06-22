@@ -1,0 +1,54 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:        Tadao
+// Version:     0.0.1.alpha
+// Project:     Tadao by IIGETHR
+// Description: A Minimal and Lightweight Design System.
+// -------------------------------------------------------------
+// Copyright 2019 IIGETHR Ltd
+// Licensed under MIT (https://github.com/iigethr/tadao/MIT-LICENSE)
+// -------------------------------------------------------------
+
+@charset "UTF-8";
+
+// 0) Vendor
+// ------------------------------------------------------------
+@import "normalize";
+
+// 1) Variables
+// ------------------------------------------------------------
+@import "lib/variables/**/*";
+
+// 2) Mixins
+// ------------------------------------------------------------
+@import "lib/mixins/**/*";
+
+// 3) Global
+// ------------------------------------------------------------
+@import "lib/globals/base";
+@import "lib/globals/universal";
+@import "lib/globals/typography";
+@import "lib/globals/roles";
+@import "lib/globals/forms";
+@import "lib/globals/tables";
+
+// 4) Artboards
+// ------------------------------------------------------------
+@import "lib/artboards/artboard_xxs";
+@import "lib/artboards/artboard_xs";
+@import "lib/artboards/artboard_s";
+@import "lib/artboards/artboard_m";
+@import "lib/artboards/artboard_l";
+@import "lib/artboards/artboard_xl";
+@import "lib/artboards/artboard_xxl";
+
+// 5) Utilities
+// ------------------------------------------------------------
+@import "lib/utilities/**/*";
+
+// 5) Components
+// ------------------------------------------------------------
+@import "lib/components/**/*";
+
+// 8) Overriders
+// ------------------------------------------------------------
+@import "lib/overriders/**/*";

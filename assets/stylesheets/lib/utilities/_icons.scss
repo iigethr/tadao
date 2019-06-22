@@ -1,0 +1,96 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Icons
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+@mixin icon-default {
+  @include hover-animation(.50s);
+  background-color: transparent;
+  border: 0;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  vertical-align: bottom;
+  width: auto;
+  &.left {
+    margin-right: 0.4em;
+  }
+  &.right {
+    margin: 0.4em;
+  }
+}
+
+@mixin icon-xxs {
+  @include icon-default;
+  height: 10px;
+  margin: 4px 0 4px;
+}
+
+@mixin icon-xs {
+  @include icon-default;
+  height: 12px;
+  margin: 4px 0 4px;
+}
+
+@mixin icon-s {
+  @include icon-default;
+  height: 14px;
+  margin: 4px 0 4px;
+}
+
+@mixin icon-m {
+  @include icon-default;
+  height: 16px;
+  margin: 4px 0 4px;
+}
+
+@mixin icon-l {
+  @include icon-default;
+  height: 20px;
+  margin: 6px 0 6px;
+}
+
+@mixin icon-xl {
+  @include icon-default;
+  height: 24px;
+  margin: 8px 0 8px;
+}
+
+@mixin icon-xxl {
+  @include icon-default;
+  height: 32px;
+  margin: 8px 0 8px;
+}
+
+// Classes
+// -------------------------------------------------------------
+
+.icon-xxs {
+  @include icon-xxs;
+}
+
+.icon-xs {
+  @include icon-xs;
+}
+
+.icon-s {
+  @include icon-s;
+}
+
+.icon-m {
+  @include icon-m;
+}
+
+.icon-l {
+  @include icon-l;
+}
+
+.icon-xl {
+  @include icon-xl;
+}
+
+.icon-xxl {
+  @include icon-xxl;
+}

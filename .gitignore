@@ -1,0 +1,37 @@
+# Debris
+.DS_Store
+.sass-cache
+Gemfile.lock
+/coverage
+
+# Ignore building resources
+/resources
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/spec/dummy/log/*
+/spec/dummy/tmp/*
+!/spec/dummy/log/.keep
+!/spec/dummy/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/app/assets/builders
+
+/spec/dummy/node_modules
+/yarn-error.log
+
+/public/uploads
+.byebug_history
+NOTES.md
+pkg/
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
