@@ -3,7 +3,13 @@
 // Project: Tadao by IIGETHR
 // -------------------------------------------------------------
 
-.wide,
-.wrap-wide { width: 100% !important; }
 .auto,
-.wrap-auto { width: auto !important; }
+.wrap-auto {
+  width: auto !important;
+}
+
+.wide,
+.wrap-wide {
+  max-width: 100% !important;
+  width: 100% !important;
+}
