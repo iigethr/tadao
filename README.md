@@ -6,7 +6,6 @@ A Minimal and Lightweight Design System.
 
 ### Usage
 
-#### Tadao on its own
 Add this line to your application.css
 
 ```
@@ -25,12 +24,6 @@ Execute:
 
 ```
 $ bundle install
-```
-
-Or install it yourself as:
-
-```
-$ gem install tadao
 ```
 
 ### License
