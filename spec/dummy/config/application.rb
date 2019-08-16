@@ -9,6 +9,16 @@ require "tadao"
 
 module Dummy
   class Application < Rails::Application
+    # Specify multiple Rails versions
+    def load_defaults(target_version)
+      case target_version.to_s
+      when "5.2"
+        config.load_defaults 5.2
+      when "6.0"
+        config.load_defaults 6.0
+      end
+    end
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
