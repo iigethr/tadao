@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   # Production
   spec.add_dependency "autoprefixer-rails"
   spec.add_dependency "inline_svg"
-  spec.add_dependency "rails", "~> 6.0.0.rc2"
+  spec.add_dependency "rails"
   spec.add_dependency "sassc-rails"
   spec.add_dependency "sprockets"
 
