@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+# Rubygems
+source "https://rubygems.org"
+
+# Declare your gem's dependencies in mies.gemspec.
+# Bundler will treat runtime dependencies like base dependencies, and
+# development dependencies will be added by default to the :development group.
+gemspec path: "../"
+
+# Rails version
+gem "rails", "6.0.0.rc2"
