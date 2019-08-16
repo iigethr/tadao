@@ -43,36 +43,57 @@
 @mixin button-size-xxs {
   font-size: 10px;
   line-height: 18px;
+  &.outline {
+    line-height: 16px;
+  }
 }
 
 @mixin button-size-xs {
   font-size: 10px;
   line-height: 20px;
+  &.outline {
+    line-height: 18px;
+  }
 }
 
 @mixin button-size-s {
   font-size: 12px;
   line-height: 22px;
+  &.outline {
+    line-height: 20px;
+  }
 }
 
 @mixin button-size-m {
   font-size: 12px;
   line-height: 24px;
+  &.outline {
+    line-height: 22px;
+  }
 }
 
 @mixin button-size-l {
   font-size: 12px;
   line-height: 32px;
+  &.outline {
+    line-height: 30px;
+  }
 }
 
 @mixin button-size-xl {
   font-size: 14px;
   line-height: 40px;
+  &.outline {
+    line-height: 38px;
+  }
 }
 
 @mixin button-size-xxl {
   font-size: 14px;
   line-height: 48px;
+  &.outline {
+    line-height: 46px;
+  }
 }
 
 // Classes

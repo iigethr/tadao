@@ -1,0 +1,41 @@
+# Setting up Travis CI:
+
+env:
+  global:
+    - CC_TEST_REPORTER_ID=6d33cd05255df2d15a2a3b78ed81a31e867fbbb9671587ce4a77d85f6d7b5ea9
+
+language: ruby
+
+cache:
+  bundler: true
+  directories:
+    - node_modules
+
+rvm:
+  - 2.6.2
+
+gemfile:
+  - gemfiles/rails_5_2.gemfile
+  - gemfiles/rails_6.0.gemfile
+
+addons:
+  chrome: stable
+  # postgresql: 10
+
+before_install:
+  - gem update --system
+  - gem install bundler -v 2.0.1
+
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
+script:
+  - cd ./spec/dummy
+  - bundle exec rails db:create
+  - bundle exec rails db:migrate RAILS_ENV=test
+  - bundle exec rspec
+
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

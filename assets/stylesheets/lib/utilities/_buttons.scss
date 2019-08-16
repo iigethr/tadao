@@ -17,70 +17,72 @@
   white-space: nowrap;
   width: auto;
   &.outline {
-    border: 1px solid $gray-500;
+    background-color: $tap;
+    border: 1px solid $blue-500;
+    color: $blue-500;
   }
 }
 
 @mixin button-xxs {
   @include button-default;
   @include button-size-xxs;
-  padding: 0 6px;
+  padding: 0 4px;
   &.outline {
-    padding: 0 0;
+    padding: 0 3px;
   }
 }
 
 @mixin button-xs {
   @include button-default;
   @include button-size-xs;
-  padding: 0 8px;
+  padding: 0 4px;
   &.outline {
-    padding: 0 0;
+    padding: 0 3px;
   }
 }
 
 @mixin button-s {
   @include button-default;
   @include button-size-s;
-  padding: 0 12px;
+  padding: 0 4px;
   &.outline {
-    padding: 0 0;
+    padding: 0 3px;
   }
 }
 
 @mixin button-m {
   @include button-default;
   @include button-size-m;
-  padding: 0 16px;
+  padding: 0 4px;
   &.outline {
-    padding: 0 0;
+    padding: 0 3px;
   }
 }
 
 @mixin button-l {
   @include button-default;
   @include button-size-l;
-  padding: 0 20px;
+  padding: 0 6px;
   &.outline {
-    padding: 0 0;
+    padding: 0 5px;
   }
 }
 
 @mixin button-xl {
   @include button-default;
   @include button-size-xl;
-  padding: 0 24px;
+  padding: 0 8px;
   &.outline {
-    padding: 0 0;
+    padding: 0 7px;
   }
 }
 
 @mixin button-xxl {
   @include button-default;
   @include button-size-xxl;
-  padding: 0 32px;
+  padding: 0 8px;
   &.outline {
-    padding: 0 0;
+    padding: 0 7px;
   }
 }
 

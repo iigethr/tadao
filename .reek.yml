@@ -1,0 +1,30 @@
+# Reek [https://github.com/troessner/reek]
+
+exclude_paths:
+  - spec
+  - vendor
+
+detectors:
+  FeatureEnvy:
+    enabled: false
+
+  InstanceVariableAssumption:
+    enabled: false
+
+  IrresponsibleModule:
+    enabled: false
+
+  NestedIterators:
+    max_allowed_nesting: 2
+
+  RepeatedConditional:
+    enabled: false
+
+  TooManyStatements:
+    enabled: false
+
+  UnusedPrivateMethod:
+    enabled: false
+
+  UtilityFunction:
+    enabled: false

@@ -15,14 +15,14 @@ $class: "forefront";
     .#{$class}-block {
       background-color: $blue-000;
       border: 1px solid $blue-100;
-      padding: 30px;
       float: left;
+      padding: 30px;
       width: 100%;
       .#{$class}-top,
       .#{$class}-middle,
       .#{$class}-bottom {
-        padding: 8px;
         float: left;
+        padding: 8px;
         width: 100%;
       }
     }

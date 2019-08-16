@@ -8,19 +8,22 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gemspec
 
+# Ruby version
+ruby "2.6.2"
+
 group :development, :test do
   # Haml (HTML Abstraction Markup Language) is a layer on top of HTML or XML.
-  gem "haml", "~> 5.0"
+  gem "haml", "~> 5.1"
   gem "haml-rails", "~> 2.0"
   # Use SCSS for stylesheets
-  gem "sassc-rails", "~> 2.0"
+  gem "sassc-rails", "~> 2.1"
 
   # A library for generating fake data such as names, addresses, and phone numbers.
   gem "faker", github: "stympy/faker", branch: "master"
 
   # Continuous Integration
   gem "codeclimate-test-reporter", "~> 1.0", ">= 1.0.9"
-  gem "travis", "~> 1.8", ">= 1.8.9"
+  gem "travis", "~> 1.8", ">= 1.8.10"
 end
 
 group :test do

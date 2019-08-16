@@ -15,82 +15,83 @@
   vertical-align: bottom;
   width: auto;
   &.left {
-    margin-right: 0.4em;
+    margin-right: .4em !important;
   }
   &.right {
-    margin: 0.4em;
+    margin: .4em !important;
   }
 }
 
 @mixin icon-xxs {
   @include icon-default;
   height: 10px;
-  margin: 4px 0 4px;
+  margin: 4px 0;
+  @at-root .outline .icon-xxs {
+    margin: 3px 0;
+  }
 }
 
 @mixin icon-xs {
   @include icon-default;
   height: 12px;
-  margin: 4px 0 4px;
+  margin: 4px 0;
+  @at-root .outline .icon-xs {
+    margin: 3px 0;
+  }
 }
 
 @mixin icon-s {
   @include icon-default;
   height: 14px;
-  margin: 4px 0 4px;
+  margin: 4px 0;
+  @at-root .outline .icon-s {
+    margin: 3px 0;
+  }
 }
 
 @mixin icon-m {
   @include icon-default;
   height: 16px;
-  margin: 4px 0 4px;
+  margin: 4px 0;
+  @at-root .outline .icon-m {
+    margin: 3px 0;
+  }
 }
 
 @mixin icon-l {
   @include icon-default;
   height: 20px;
-  margin: 6px 0 6px;
+  margin: 6px 0;
+  @at-root .outline .icon-l {
+    margin: 5px 0;
+  }
 }
 
 @mixin icon-xl {
   @include icon-default;
   height: 24px;
-  margin: 8px 0 8px;
+  margin: 8px 0;
+  @at-root .outline .icon-xl {
+    margin: 7px 0;
+  }
 }
 
 @mixin icon-xxl {
   @include icon-default;
   height: 32px;
-  margin: 8px 0 8px;
+  margin: 8px 0;
+  @at-root .outline .icon-xxl {
+    margin: 7px 0;
+  }
 }
 
 // Classes
 // -------------------------------------------------------------
 
-.icon-xxs {
-  @include icon-xxs;
-}
-
-.icon-xs {
-  @include icon-xs;
-}
-
-.icon-s {
-  @include icon-s;
-}
-
-.icon-m {
-  @include icon-m;
-}
-
-.icon-l {
-  @include icon-l;
-}
-
-.icon-xl {
-  @include icon-xl;
-}
-
-.icon-xxl {
-  @include icon-xxl;
-}
+.icon-xxs { @include icon-xxs; }
+.icon-xs  { @include icon-xs; }
+.icon-s   { @include icon-s; }
+.icon-m   { @include icon-m; }
+.icon-l   { @include icon-l; }
+.icon-xl  { @include icon-xl; }
+.icon-xxl { @include icon-xxl; }

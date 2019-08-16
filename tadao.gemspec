@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-$:.push File.expand_path("lib", __dir__)
+$LOAD_PATH.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
 require "tadao/version"
@@ -17,9 +17,9 @@ Gem::Specification.new do |spec|
   spec.files       = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Production
-  spec.add_dependency "rails", "~> 6.0.0.rc1"
   spec.add_dependency "autoprefixer-rails"
   spec.add_dependency "inline_svg"
+  spec.add_dependency "rails", "~> 6.0.0.rc2"
   spec.add_dependency "sassc-rails"
   spec.add_dependency "sprockets"
 
