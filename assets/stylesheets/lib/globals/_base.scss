@@ -8,6 +8,8 @@
 *::before {
   @include border-box;
   letter-spacing: .03em;
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -18,8 +20,16 @@ body {
   font-family: $sans;
   letter-spacing: .03em;
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
+  scrollbar-width: none;
   width: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+  visibility: hidden;
 }
 
 a,
