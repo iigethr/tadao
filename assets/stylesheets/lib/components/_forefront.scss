@@ -15,6 +15,7 @@ $class: "forefront";
     .#{$class}-block {
       background-color: $blue-000;
       border: 1px solid $blue-100;
+      border-radius: 4px;
       float: left;
       padding: 30px;
       width: 100%;
@@ -24,6 +25,21 @@ $class: "forefront";
         float: left;
         padding: 8px;
         width: 100%;
+      }
+      .#{$class}-wrap {
+        float: left;
+        width: 100%;
+      }
+      h1 {
+        @include font-l;
+        color: $blue-700;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      p {
+        @include font-m;
+        color: $blue-700;
+        text-align: center;
       }
     }
   }

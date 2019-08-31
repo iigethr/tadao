@@ -1,0 +1,59 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Small
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$width: 480px;
+$class: "col-s";
+
+@import "lib/columns/col_setup";
+@import "lib/columns/col_math";
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  $width: 240px;
+  @import "lib/columns/col_math";
+}
+
+// Media Query 360px
+// -------------------------------------------------------------
+@media #{$xs} {
+  $width: 360px;
+  @import "lib/columns/col_math";
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  $width: 480px;
+  @import "lib/columns/col_math";
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  $width: 480px;
+  @import "lib/columns/col_math";
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  $width: 480px;
+  @import "lib/columns/col_math";
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  $width: 480px;
+  @import "lib/columns/col_math";
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media all and #{$xxl} {
+  $width: 480px;
+  @import "lib/columns/col_math";
+}

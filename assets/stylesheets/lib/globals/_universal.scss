@@ -20,7 +20,7 @@ $class: "universal";
     overflow: hidden;
     padding: 0;
     width: 240px;
-    .#{$class}-item {
+    .#{$class}-block {
       @include border-box;
       float: left;
       margin: 0 auto;
@@ -38,7 +38,7 @@ $class: "universal";
     min-width: 240px;
     .#{$class}-box {
       width: 240px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }
@@ -52,7 +52,7 @@ $class: "universal";
     min-width: 360px;
     .#{$class}-box {
       width: 360px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }
@@ -66,7 +66,7 @@ $class: "universal";
     min-width: 480px;
     .#{$class}-box {
       width: 480px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }
@@ -80,7 +80,7 @@ $class: "universal";
     min-width: 720px;
     .#{$class}-box {
       width: 720px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }
@@ -94,7 +94,7 @@ $class: "universal";
     min-width: 960px;
     .#{$class}-box {
       width: 960px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }
@@ -108,7 +108,7 @@ $class: "universal";
     min-width: 1440px;
     .#{$class}-box {
       width: 1440px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }
@@ -122,7 +122,7 @@ $class: "universal";
     min-width: 1920px;
     .#{$class}-box {
       width: 1920px;
-      .#{$class}-item {
+      .#{$class}-block {
         width: 100%;
       }
     }

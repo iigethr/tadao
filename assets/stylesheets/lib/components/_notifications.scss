@@ -1,42 +1,24 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Publication
+// File:    Notifications
 // Project: Tadao by IIGETHR
 // -------------------------------------------------------------
 
-$class: "publication";
+$class: "notifications";
 
 .#{$class} {
   float: left;
+  position: fixed;
+  top: 0;
   width: 100%;
   .#{$class}-box {
     float: left;
+    padding: 8px;
     width: 100%;
     .#{$class}-block {
+      border-radius: 4px;
       float: left;
-      padding: 8px;
-      width: 50%;
-      .#{$class}-wrap {
-        background-color: $gray-000;
-        border: 1px solid $gray-100;
-        float: left;
-        padding: 14px;
-        width: 100%;
-      }
-      .#{$class}-top,
-      .#{$class}-middle,
-      .#{$class}-bottom {
-        float: left;
-        width: 100%;
-      }
-      .#{$class}-top {
-        padding: 0 0 8px;
-      }
-      .#{$class}-middle {
-        min-height: 48px;
-      }
-      .#{$class}-bottom {
-        padding: 8px 0 0;
-      }
+      padding: 7px 16px;
+      width: 100%;
     }
   }
 }

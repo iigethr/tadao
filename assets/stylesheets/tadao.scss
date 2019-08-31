@@ -41,11 +41,21 @@
 @import "lib/artboards/artboard_xl";
 @import "lib/artboards/artboard_xxl";
 
-// 5) Utilities
+// 5) Columns
+// ------------------------------------------------------------
+@import "lib/columns/col_xxs";
+@import "lib/columns/col_xs";
+@import "lib/columns/col_s";
+@import "lib/columns/col_m";
+@import "lib/columns/col_l";
+@import "lib/columns/col_xl";
+@import "lib/columns/col_xxl";
+
+// 6) Utilities
 // ------------------------------------------------------------
 @import "lib/utilities/**/*";
 
-// 5) Components
+// 7) Components
 // ------------------------------------------------------------
 @import "lib/components/**/*";
 
